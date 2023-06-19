@@ -1,4 +1,4 @@
-package com.aulao002;
+package application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,7 +8,7 @@ public class TryWithResources {
 
 	public static void main(String[] args) {
 		
-String path = "src/planilha.csv";
+        String path = "src/planilha.csv";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			

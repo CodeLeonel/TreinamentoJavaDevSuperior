@@ -1,4 +1,4 @@
-package com.aulao002;
+package application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
